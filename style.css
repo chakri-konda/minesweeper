@@ -1,0 +1,108 @@
+:root {
+    --cell-size: 60px;
+    --item-font-size: 35px;
+}
+  
+.container {
+    width: 500px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#board {
+    height: 480px;
+    width: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dcd6bc;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 10px solid #dcd6bc;
+    margin-bottom: 10px;
+    font-size: var(--item-font-size);
+    align-content: center;
+    text-align: center;
+}
+
+div {
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#optext {
+    display: flex;
+}
+
+.optext {
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: 'Baloo Bhai';
+}
+
+.valid {
+    height: var(--cell-size);
+    width: var(--cell-size);
+    border: 5px solid;
+    border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+    box-sizing: border-box;
+}
+  
+.checked {
+    height: var(--cell-size);
+    width: var(--cell-size);
+    border: 2px solid;
+    background-color: #cecab7;
+    border-color: #9c998d;
+    box-sizing: border-box;
+}
+  
+.bomb {
+    height: var(--cell-size);
+    width: var(--cell-size);
+    align-content: center;
+    border: 5px solid;
+    border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+    box-sizing: border-box;
+}
+
+#button {
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#playAgain {
+    font-family: 'Baloo Bhai', cursive;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #cecab7;
+}
+
+.one {
+    color: #e76346;
+}
+  
+.two {
+    color: #4199d3;
+}
+  
+.three {
+    color: #57da59;
+}
+  
+.four{
+    color: #bb41d3;
+}
+  
+#result {
+    color: #e76346;
+}
+  
